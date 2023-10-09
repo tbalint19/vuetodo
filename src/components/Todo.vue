@@ -4,7 +4,7 @@
 
   const props = defineProps<{
     todo: Todo,
-    onDelete: (id: number) => void,
+    onDelete: () => void,
     onUpdate: (title: string, desc: string) => void
   }>()
 
